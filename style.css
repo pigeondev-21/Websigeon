@@ -1,0 +1,54 @@
+/* Style Dasar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Header & Logo */
+header {
+    padding: 50px 20px;
+    background: white;
+}
+
+.wordmark {
+    max-width: 400px; /* Atur ukuran logo di sini */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0d2c4d; /* Menyesuaikan warna biru gelap di logo */
+    font-size: 2.5rem;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+}
+
+.btn-primary {
+    background-color: #0d2c4d;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1a4a7a;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
